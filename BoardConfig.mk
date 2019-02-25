@@ -143,8 +143,8 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
-# Security patch level
-VENDOR_SECURITY_PATCH := 2021-07-01
+# Security
+VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # SELinux
 include device/qcom/sepolicy_vndr/SEPolicy.mk
