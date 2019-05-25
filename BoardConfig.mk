@@ -78,7 +78,6 @@ TARGET_USES_QTI_CAMERA_DEVICE := true
 
 # Charger Mode
 BOARD_CHARGER_ENABLE_SUSPEND := true
-TARGET_PIXEL_CHARGE_ANIM := true
 
 # Dex
 ifeq ($(HOST_OS),linux)
