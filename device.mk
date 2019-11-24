@@ -189,3 +189,11 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# Recorder
+PRODUCT_PACKAGES += \
+    OPScreenRecorder
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/op-screen-recorder-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/op-screen-recorder-permissions.xml
+
