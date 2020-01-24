@@ -61,6 +61,11 @@ PRODUCT_BOARD_PLATFORM := msmnile
 PRODUCT_PACKAGES += \
     Snap
 
+# Charging
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
+
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
