@@ -197,3 +197,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/op-screen-recorder-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/op-screen-recorder-permissions.xml
 
+# Remove packages
+PRODUCT_PACKAGES += \
+    RemovePackages
