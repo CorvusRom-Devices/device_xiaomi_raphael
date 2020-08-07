@@ -22,4 +22,8 @@
     <!-- Device specific doze package -->
     <string name="config_customDozePackage">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
 
+    <!-- Corvus maintainer -->
+    <string name="maintainer">Maintainer</string>
+    <string name="corvus_maintainer">Ritzz</string>
+
 </resources>
