@@ -5,7 +5,7 @@
     "branch"     :  "10"
   },
   {
-    "repository" : "UtsavBalar1231/kernel_xiaomi_raphael",
+    "repository" : "UtsavBalar1231/android_kernel_xiaomi_sm8150",
     "target_path": "kernel/xiaomi/raphael",
     "branch"     : "auto-kernel-oss",
     "remote"     : "github"
