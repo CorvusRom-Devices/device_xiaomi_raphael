@@ -89,8 +89,8 @@ void set_device_props(const std::string fingerprint, const std::string descripti
 }
 
 void vendor_load_properties() {
-    char const fp[] = "Xiaomi/raphael/raphael:11/RKQ1.200826.002/V12.5.4.0.RFKCNXM:user/release-keys";
-    char const fp_desc[] = "raphael-user 11 RKQ1.200826.002 V12.5.4.0.RFKCNXM release-keys";
+    char const fp[] = "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys";
+    char const fp_desc[] = "walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys";
 
     std::string region = android::base::GetProperty("ro.boot.hwc", "");
 
@@ -110,6 +110,7 @@ void vendor_load_properties() {
             fp_desc,
             "Xiaomi", "raphael", "Mi 9T Pro");
     }
+    property_override("ro.boot.verifiedbootstate", "green");
 
     load_dalvik_properties();
 }
