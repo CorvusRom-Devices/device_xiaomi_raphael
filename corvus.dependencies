@@ -5,9 +5,9 @@
     "branch"     :  "10"
   },
   {
-    "repository" : "UtsavBalar1231/android_kernel_xiaomi_sm8150",
+    "repository" : "CorvusRom-Devices/kernel_xiaomi_raphael",
     "target_path": "kernel/xiaomi/raphael",
-    "branch"     : "auto-kernel-oss",
+    "branch"     : "10",
     "remote"     : "github"
   },
   {
