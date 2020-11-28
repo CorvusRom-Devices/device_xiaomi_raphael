@@ -11,9 +11,9 @@
     "remote"     : "github"
   },
   {
-    "repository" : "HSgod/vendor_ANXCamera",
+    "repository" : "sashascurtu/vendor_ANXCamera",
     "target_path": "vendor/ANXCamera",
-    "branch"     : "master",
+    "branch"     : "raphael-v185",
     "remote"     : "github"
   },
   {
