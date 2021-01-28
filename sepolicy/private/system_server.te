@@ -1,2 +1,6 @@
 get_prop(system_server, persist_camera_prop)
 allow system_server default_android_service:service_manager { add find };
+
+#Smart charging
+allow system_server sysfs_battery_supply:file { getattr open read write };
+allow system_server sysfs_usb_supply:file { getattr open read write };
