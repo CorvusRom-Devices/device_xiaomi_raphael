@@ -448,5 +448,7 @@
     <string name="config_SmartChargingSuspendValue" translatable="false">1</string>
     <string name="config_SmartChargingResumeValue" translatable="false">0</string>
 
+    <!-- Enable LiveDisplay -->
+    <bool name="config_liveDisplayAvailable">false</bool>
 </resources>
 
