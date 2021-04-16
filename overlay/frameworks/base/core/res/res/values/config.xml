@@ -450,5 +450,8 @@
 
     <!-- Enable LiveDisplay -->
     <bool name="config_liveDisplayAvailable">false</bool>
+
+    <!-- Pocket Lock -->
+    <bool name="config_pocketModeSupported">true</bool>
 </resources>
 
