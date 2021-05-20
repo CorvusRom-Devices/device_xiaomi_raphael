@@ -77,6 +77,9 @@ ro.logd.size=2M
 # Maintainer
 ro.corvus.maintainer=Ritzz
 
+# IO Prefetcher
+vendor.iop.enable_uxe=1
+
 # Media
 av.offload.enable=true
 media.stagefright.enable-player=true
