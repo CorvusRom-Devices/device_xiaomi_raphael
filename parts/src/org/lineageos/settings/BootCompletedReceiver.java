@@ -42,6 +42,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         }
         DozeUtils.checkDozeService(context);
         PopupCameraUtils.startService(context);
-        ThermalUtils.startService(context);
+        ThermalUtils.initialize(context);
+
     }
 }
