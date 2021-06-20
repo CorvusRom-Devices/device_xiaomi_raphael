@@ -1,5 +1,4 @@
-//
-// Copyright (C) 2019-2020 The LineageOS Project
+// Copyright (C) 2019 The LineageOS Project
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -14,38 +13,18 @@
 // limitations under the License.
 
 cc_binary {
-    name: "android.hardware.light@2.0-service.raphael",
+    relative_install_path: "hw",
     defaults: ["hidl_defaults"],
-    init_rc: ["hidl/android.hardware.light@2.0-service.raphael.rc"],
-    srcs: [
-        "hidl/service.cpp",
-        "hidl/Light.cpp",
-    ],
+    name: "android.hardware.light@2.0-service.xiaomi_msmnile",
+    init_rc: ["android.hardware.light@2.0-service.xiaomi_msmnile.rc"],
+    srcs: ["service.cpp", "Light.cpp"],
+    vendor: true,
     shared_libs: [
-        "libbase",
-        "libhidlbase",
-        "libutils",
         "android.hardware.light@2.0",
-    ],
-    relative_install_path: "hw",
-    vendor: true,
-}
-
-cc_binary {
-    name: "android.hardware.lights-service.raphael",
-    relative_install_path: "hw",
-    init_rc: ["aidl/android.hardware.lights.raphael.rc"],
-    vintf_fragments: ["aidl/android.hardware.lights.raphael.xml"],
-    vendor: true,
-    shared_libs: [
         "libbase",
-        "liblog",
         "libhardware",
-        "libbinder_ndk",
-        "android.hardware.light-ndk_platform",
-    ],
-    srcs: [
-        "aidl/Lights.cpp",
-        "aidl/main.cpp",
+        "libhidlbase",
+        "liblog",
+        "libutils",
     ],
 }

@@ -263,7 +263,7 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.raphael
+    android.hardware.light@2.0-service.xiaomi_msmnile
 
 # Media
 PRODUCT_PACKAGES += \
