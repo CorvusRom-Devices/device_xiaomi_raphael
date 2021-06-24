@@ -29,9 +29,6 @@
     <integer name="config_proximityCheckTimeout">3000</integer>
     <bool name="config_proximityCheckOnWakeEnabledByDefault">false</bool>
 
-    <!-- Shows the required view for in-display fingerprint -->
-    <bool name="config_supportsInDisplayFingerprint">true</bool>
-
     <!-- Whether the device has a popup camera -->
     <bool name="config_hasPopupCamera">true</bool>
 
