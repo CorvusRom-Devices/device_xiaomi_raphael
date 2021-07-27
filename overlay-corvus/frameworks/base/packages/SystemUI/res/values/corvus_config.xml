@@ -15,7 +15,7 @@
 -->
 <resources>
     <!-- Color of the FOD view -->
-    <color name="config_fodColor">#00ffffff</color>
+    <color name="config_fodColor">#00000000</color>
 
      <!-- The CPU temperature sensor path, defaults to empty -->
     <string name="config_cpuTempSensor" translatable="false">/sys/class/thermal/thermal_zone0/temp</string>
