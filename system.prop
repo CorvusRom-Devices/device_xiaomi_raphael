@@ -7,6 +7,9 @@ persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
 
+# Maintainer
+ro.corvus.maintainer=Ritzzz
+
 # RIL
 persist.radio.apm_sim_not_pwdn=1
 persist.vendor.radio.enable_temp_dds=true
