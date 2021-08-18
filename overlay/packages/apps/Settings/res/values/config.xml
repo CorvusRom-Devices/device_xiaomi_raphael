@@ -26,4 +26,7 @@
     <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string> 
     <string name="config_batCurCap">/sys/class/power_supply/bms/charge_full</string>
     <bool name="config_supportBatteryHealth">true</bool>
+
+    <!-- Screen off FOD -->
+    <bool name="config_supportScreenOffFod">true</bool>
 </resources>
