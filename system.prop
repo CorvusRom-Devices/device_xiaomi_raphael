@@ -23,6 +23,10 @@ ro.telephony.default_network=22,22
 # SurfaceFlinger
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 
+# SSR
+persist.vendor.ssr.enable_ramdumps=1
+persist.vendor.ssr.restart_level=ALL_ENABLE
+
 # Vendor
 ro.vendor.qti.va_aosp.support=1
 persist.vendor.camera.privapp.list=com.android.camera
