@@ -16,7 +16,7 @@ $(call inherit-product, vendor/xiaomi/raphael/raphael-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-arrow
+    $(LOCAL_PATH)/overlay-aosp
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
@@ -152,15 +152,8 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
     libgui_vendor \
     vendor.qti.hardware.camera.device@1.0.vendor \
-    vendor.xiaomi.hardware.motor@1.0.vendor
-
-ifeq ($(ARROW_GAPPS), true)
-PRODUCT_PACKAGES += \
-    GCamGOPrebuilt
-else
-PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.motor@1.0.vendor \
     Snap
-endif
 
 # Component overrides
 PRODUCT_COPY_FILES += \
